@@ -27,7 +27,7 @@ jobs:
         with:
           python-version: "3.11"
           cache: "pip"
-          cache-dependency-path: tests/requirements.txt
+          cache-dependency-path: Frontend/tests/requirements.txt
 
       # ------------------------------------------------------------------
       # 3. Install Google Chrome (stable)
@@ -54,14 +54,14 @@ jobs:
       # 5. Run Selenium E2E Tests
       # ------------------------------------------------------------------
       - name: Run E2E Tests
-        working-directory: tests/e2e
+        working-directory: Frontend/tests/e2e
         env:
-          SMARTBIZ_BASE_URL: "https://thegitguy-56.github.io/Smartbiz-frontend/"
+          SMARTBIZ_BASE_URL: "https://NvSandeep-1923.github.io/Smartbiz-webapp/"
           SMARTBIZ_API_URL: "https://smartbiz-backend-c7ru.onrender.com/api"
         run: |
           pytest . -v \
             --tb=short \
-            --junitxml=../results.xml \
+            --junitxml=../../results.xml \
             --timeout=120 \
             -x --maxfail=50 \
             || true
@@ -73,7 +73,7 @@ jobs:
       # ------------------------------------------------------------------
       - name: Generate XLSX Test Report
         if: always()
-        working-directory: tests
+        working-directory: Frontend/tests
         run: |
           python generate_report.py results.xml execution_log.jsonl
 
@@ -85,7 +85,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: SmartBiz-E2E-Test-Report
-          path: tests/E2E_Test_Report_SmartBiz_*.xlsx
+          path: Frontend/tests/E2E_Test_Report_SmartBiz_*.xlsx
           retention-days: 30
           if-no-files-found: warn
 
@@ -97,7 +97,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: SmartBiz-E2E-Screenshots
-          path: tests/screenshots/
+          path: Frontend/tests/screenshots/
           retention-days: 14
           if-no-files-found: ignore
 
@@ -106,7 +106,7 @@ jobs:
       # ------------------------------------------------------------------
       - name: Print Test Summary
         if: always()
-        working-directory: tests
+        working-directory: Frontend/tests
         run: |
           echo "============================================"
           echo "  SmartBiz E2E Test Results Summary"
