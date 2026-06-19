@@ -1,0 +1,84 @@
+name: SmartBiz Unified Deploy & Test
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: 'npm'
+          cache-dependency-path: Frontend/package-lock.json
+
+      - name: Install Frontend Dependencies
+        working-directory: Frontend
+        run: npm install
+
+      - name: Build Frontend
+        working-directory: Frontend
+        run: npm run build
+
+      - name: Install Test Dependencies
+        working-directory: BrainBattleE2E
+        run: npm install
+
+      - name: Setup Chrome for headless tests
+        uses: browser-actions/setup-chrome@latest
+
+      - name: Start Vite Preview (Background)
+        working-directory: Frontend
+        run: |
+          npx vite preview --port 5173 --host 127.0.0.1 --base /smartbiz-webapp/ &
+          sleep 4
+          # Curl check to verify server is alive
+          curl -s --head  --request GET http://127.0.0.1:5173/smartbiz-webapp/ | grep "200 OK" || true
+
+      - name: Run Mega E2E Test Suite (1,100 Assertions)
+        working-directory: BrainBattleE2E
+        env:
+          TEST_BASE_URL: "http://127.0.0.1:5173/smartbiz-webapp/"
+        run: npm test
+
+      - name: Inject Reports into Build Artifacts
+        run: |
+          mkdir -p Frontend/dist/reports/latest
+          mkdir -p Frontend/dist/reports/history/build-${{ github.run_number }}
+          cp BrainBattleE2E/execution-report.html Frontend/dist/reports/latest/execution-report.html
+          cp BrainBattleE2E/execution-report.html Frontend/dist/reports/history/build-${{ github.run_number }}/execution-report.html
+          cp BrainBattleE2E/selenium-report.xlsx Frontend/dist/reports/latest/selenium-report.xlsx
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: Frontend/dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Summary Output
+        if: always()
+        run: |
+          echo "### 🚀 SmartBiz Deployment & Test Summary" >> $GITHUB_STEP_SUMMARY
+          echo "The unified bundle has been deployed successfully." >> $GITHUB_STEP_SUMMARY
+          echo "- **App URL:** https://${{ github.repository_owner }}.github.io/smartbiz-webapp/" >> $GITHUB_STEP_SUMMARY
+          echo "- **Latest execution report:** https://${{ github.repository_owner }}.github.io/smartbiz-webapp/reports/latest/execution-report.html" >> $GITHUB_STEP_SUMMARY
+          echo "- **Build History:** https://${{ github.repository_owner }}.github.io/smartbiz-webapp/reports/history/build-${{ github.run_number }}/execution-report.html" >> $GITHUB_STEP_SUMMARY

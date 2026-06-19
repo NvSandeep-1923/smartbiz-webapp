@@ -59,7 +59,7 @@ jobs:
           SMARTBIZ_BASE_URL: "https://NvSandeep-1923.github.io/Smartbiz-webapp/"
           SMARTBIZ_API_URL: "https://smartbiz-backend-c7ru.onrender.com/api"
         run: |
-          pytest . -v \
+          pytest . -v -n auto \
             --tb=short \
             --junitxml=../../results.xml \
             --timeout=120 \

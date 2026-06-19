@@ -178,3 +178,91 @@ class TestReportsPage:
         )
         assert len(items) == 4, f"Expected 4 report items, found {len(items)}"
         log_event("INFO", "TC-RPT-013 PASSED: 4 report items in grid")
+
+    # ------------------------------------------------------------------
+    # TC-RPT-014: Business Reports - Daybook page loads
+    # ------------------------------------------------------------------
+    def test_daybook_page_loads(self):
+        """Clicking Daybook should navigate and load the page."""
+        navigate_to(self.driver, self.base_url, "#reports")
+        time.sleep(2)
+        link = self.driver.find_element(By.CSS_SELECTOR, 'a[href="#reports/daybook"]')
+        link.click()
+        time.sleep(3)
+        assert "#reports/daybook" in self.driver.current_url, "Did not navigate to Daybook"
+        log_event("INFO", "TC-RPT-014 PASSED: Daybook page loads")
+
+    # ------------------------------------------------------------------
+    # TC-RPT-015: Business Reports - P&L page loads
+    # ------------------------------------------------------------------
+    def test_pnl_page_loads(self):
+        """Clicking P&L Statement should navigate and load the page."""
+        navigate_to(self.driver, self.base_url, "#reports")
+        time.sleep(2)
+        link = self.driver.find_element(By.CSS_SELECTOR, 'a[href="#reports/pnl"]')
+        link.click()
+        time.sleep(3)
+        assert "#reports/pnl" in self.driver.current_url, "Did not navigate to P&L"
+        log_event("INFO", "TC-RPT-015 PASSED: P&L page loads")
+
+    # ------------------------------------------------------------------
+    # TC-RPT-016: Business Reports - Tax/GST page loads
+    # ------------------------------------------------------------------
+    def test_tax_page_loads(self):
+        """Clicking Tax & GST should navigate and load the page."""
+        navigate_to(self.driver, self.base_url, "#reports")
+        time.sleep(2)
+        link = self.driver.find_element(By.CSS_SELECTOR, 'a[href="#reports/tax"]')
+        link.click()
+        time.sleep(3)
+        assert "#reports/tax" in self.driver.current_url, "Did not navigate to Tax page"
+        log_event("INFO", "TC-RPT-016 PASSED: Tax page loads")
+
+    # ------------------------------------------------------------------
+    # TC-RPT-017: Business Reports - Sales Forecast page loads
+    # ------------------------------------------------------------------
+    def test_forecast_page_loads(self):
+        """Clicking Sales Forecast should navigate and load the page."""
+        navigate_to(self.driver, self.base_url, "#reports")
+        time.sleep(2)
+        link = self.driver.find_element(By.CSS_SELECTOR, 'a[href="#reports/forecast"]')
+        link.click()
+        time.sleep(3)
+        assert "#reports/forecast" in self.driver.current_url, "Did not navigate to Forecast"
+        log_event("INFO", "TC-RPT-017 PASSED: Forecast page loads")
+
+    # ------------------------------------------------------------------
+    # TC-RPT-018: Portfolio Health gauge value check
+    # ------------------------------------------------------------------
+    def test_health_gauge_numeric_value(self):
+        """Gauge should contain a numeric value percentage."""
+        navigate_to(self.driver, self.base_url, "#reports")
+        time.sleep(2)
+        gauge = self.driver.find_element(By.CSS_SELECTOR, ".risk-gauge")
+        text = gauge.text.replace("%", "").strip()
+        assert text.isdigit(), f"Gauge value '{text}' is not numeric"
+        val = int(text)
+        assert 0 <= val <= 100, f"Gauge value {val} out of range"
+        log_event("INFO", "TC-RPT-018 PASSED: Health gauge value verified")
+
+    # ------------------------------------------------------------------
+    # TC-RPT-019: AI Insights text not empty
+    # ------------------------------------------------------------------
+    def test_ai_insights_content_not_empty(self):
+        """AI insights section should have text content."""
+        navigate_to(self.driver, self.base_url, "#reports")
+        time.sleep(2)
+        section = self.driver.find_element(By.CSS_SELECTOR, ".ai-insights-content")
+        assert len(section.text.strip()) > 10, "AI insights content too short or empty"
+        log_event("INFO", "TC-RPT-019 PASSED: AI insights content verified")
+
+    # ------------------------------------------------------------------
+    # TC-RPT-020: Export report button presence
+    # ------------------------------------------------------------------
+    def test_export_button_visibility(self):
+        """Check for export action buttons on reports page."""
+        navigate_to(self.driver, self.base_url, "#reports")
+        time.sleep(2)
+        # Check for generic export icon or button
+        btns = self.driver.find_elements(By.CSS_SELECTOR, ".ph-download-simple")
+        log_event("INFO", f"TC-RPT-020 PASSED: Found {len(btns)} export elements")

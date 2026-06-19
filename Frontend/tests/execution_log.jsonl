@@ -1398,3 +1398,226 @@
 {"timestamp": "2026-06-16T04:31:03.352114Z", "level": "INFO", "message": "WebDriver session closed"}
 {"timestamp": "2026-06-16T04:31:07.833745Z", "level": "INFO", "message": "TC-SEC-012 PASSED: Form action is local"}
 {"timestamp": "2026-06-16T04:31:10.030405Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:17:17.842051Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:17:18.586874Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:17:22.198627Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:17:23.403720Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:17:23.413901Z", "level": "INFO", "message": "TC-ONB-001 PASSED: Page loaded successfully"}
+{"timestamp": "2026-06-19T08:17:23.840725Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:17:25.894601Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:17:26.171172Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:17:26.657852Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:17:27.823533Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:17:27.940960Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:17:28.435436Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:17:29.550949Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:17:29.718663Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:17:29.786390Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:17:31.123498Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:17:31.313408Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:17:31.595993Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:17:31.943205Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:17:32.074484Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:17:33.400836Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:17:33.834152Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:17:34.102189Z", "level": "INFO", "message": "Screenshot saved: test_slide_digital_invoicing_visible_081734.png"}
+{"timestamp": "2026-06-19T08:17:35.250187Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:17:35.342176Z", "level": "INFO", "message": "TC-ONB-015 PASSED: Carousel transition wait verified"}
+{"timestamp": "2026-06-19T08:17:35.382138Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:17:35.458492Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:17:36.545268Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:17:36.737620Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:17:36.936805Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:17:37.235834Z", "level": "INFO", "message": "Screenshot saved: test_page_title_matches_app_name_081737.png"}
+{"timestamp": "2026-06-19T08:17:38.344071Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:17:38.929954Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:17:39.741107Z", "level": "INFO", "message": "Screenshot saved: test_onboarding_icons_render_081739.png"}
+{"timestamp": "2026-06-19T08:17:40.137334Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:17:42.250161Z", "level": "INFO", "message": "TC-ONB-017 PASSED: Dot 2 interaction verified"}
+{"timestamp": "2026-06-19T08:17:42.285859Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:17:43.773916Z", "level": "INFO", "message": "Screenshot saved: test_footer_bg_081743.png"}
+{"timestamp": "2026-06-19T08:17:43.967314Z", "level": "INFO", "message": "TC-ONB-019 PASSED: Found 0 text CTAs"}
+{"timestamp": "2026-06-19T08:17:44.405097Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:17:45.961296Z", "level": "INFO", "message": "Screenshot saved: test_carousel_has_three_slides_081745.png"}
+{"timestamp": "2026-06-19T08:17:46.108948Z", "level": "INFO", "message": "Screenshot saved: test_first_dot_is_active_081746.png"}
+{"timestamp": "2026-06-19T08:17:46.201265Z", "level": "INFO", "message": "Screenshot saved: test_onboarding_container_rendered_081746.png"}
+{"timestamp": "2026-06-19T08:17:46.798447Z", "level": "INFO", "message": "TC-ONB-023 PASSED: Text alignment verified"}
+{"timestamp": "2026-06-19T08:17:47.106930Z", "level": "INFO", "message": "Screenshot saved: test_get_started_navigates_to_login_081747.png"}
+{"timestamp": "2026-06-19T08:17:47.723535Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:17:47.806574Z", "level": "INFO", "message": "Screenshot saved: test_slide_customer_ledger_visible_081747.png"}
+{"timestamp": "2026-06-19T08:17:48.991916Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:17:50.157061Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:17:50.708957Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:17:51.055961Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:17:51.364789Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:17:51.393562Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:17:51.434431Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:17:51.525760Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:17:51.602217Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:17:51.813973Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:17:51.829398Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:17:54.321130Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:17:54.930398Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:17:55.097590Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:17:55.648536Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:17:55.836927Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:17:55.839173Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:17:55.918567Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:17:56.252099Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:17:56.681817Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:17:56.766522Z", "level": "INFO", "message": "TC-ONB-020 PASSED: Font-family is \"Helvetica Neue\", Helvetica, Arial, sans-serif"}
+{"timestamp": "2026-06-19T08:17:59.680834Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:18:00.163644Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:18:00.202874Z", "level": "INFO", "message": "TC-ONB-016 PASSED: Logo find result: 0"}
+{"timestamp": "2026-06-19T08:18:00.508901Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:18:00.907506Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:18:01.269738Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:18:01.314221Z", "level": "INFO", "message": "Screenshot saved: test_get_started_button_visible_081801.png"}
+{"timestamp": "2026-06-19T08:18:01.387312Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:18:01.565880Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:18:01.679434Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:18:01.728862Z", "level": "INFO", "message": "Screenshot saved: test_slide_smart_inventory_visible_081801.png"}
+{"timestamp": "2026-06-19T08:18:01.864590Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:18:03.172572Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:18:04.013459Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:18:04.400934Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:18:06.121155Z", "level": "INFO", "message": "Screenshot saved: test_slide_descriptions_present_081806.png"}
+{"timestamp": "2026-06-19T08:18:08.848787Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:18:10.341238Z", "level": "INFO", "message": "Screenshot saved: test_container_display_flex_081810.png"}
+{"timestamp": "2026-06-19T08:18:10.604926Z", "level": "INFO", "message": "Screenshot saved: test_navigation_dots_present_081810.png"}
+{"timestamp": "2026-06-19T08:18:11.407641Z", "level": "INFO", "message": "TC-ONB-018 PASSED: Dot 3 interaction verified"}
+{"timestamp": "2026-06-19T08:18:11.600133Z", "level": "INFO", "message": "TC-ONB-024 PASSED: Dots accessibility checked"}
+{"timestamp": "2026-06-19T08:18:13.143981Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:18:13.638933Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:18:14.302983Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:18:14.372315Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:18:17.104429Z", "level": "INFO", "message": "Screenshot saved: test_existing_user_link_navigates_to_login_081817.png"}
+{"timestamp": "2026-06-19T08:18:19.820970Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:19:47.668943Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:19:48.132413Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:19:48.160110Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:19:49.215733Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:19:49.308796Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:19:49.324073Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:19:49.496597Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:19:49.844068Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:19:50.201288Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:19:50.937330Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:19:51.141743Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:19:51.198289Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:19:53.308168Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:19:54.041559Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:19:54.359411Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:19:54.742500Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:19:55.414372Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:19:55.885447Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:19:55.918037Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:19:56.024195Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:19:56.145639Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:19:56.241468Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:19:56.412461Z", "level": "INFO", "message": "Screenshot saved: test_slide_digital_invoicing_visible_081956.png"}
+{"timestamp": "2026-06-19T08:19:56.492026Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:19:56.614156Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:19:56.623726Z", "level": "INFO", "message": "TC-ONB-001 PASSED: Page loaded successfully"}
+{"timestamp": "2026-06-19T08:19:59.333775Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:19:59.513740Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:20:03.642045Z", "level": "INFO", "message": "TC-ONB-015 PASSED: Carousel transition wait verified"}
+{"timestamp": "2026-06-19T08:20:03.651611Z", "level": "INFO", "message": "TC-ONB-023 PASSED: Text alignment verified"}
+{"timestamp": "2026-06-19T08:20:04.395098Z", "level": "INFO", "message": "TC-ONB-019 PASSED: Found 0 text CTAs"}
+{"timestamp": "2026-06-19T08:20:05.641384Z", "level": "INFO", "message": "Screenshot saved: test_first_dot_is_active_082005.png"}
+{"timestamp": "2026-06-19T08:20:05.933361Z", "level": "INFO", "message": "Screenshot saved: test_onboarding_container_rendered_082005.png"}
+{"timestamp": "2026-06-19T08:20:06.091568Z", "level": "INFO", "message": "TC-ONB-017 PASSED: Dot 2 interaction verified"}
+{"timestamp": "2026-06-19T08:20:06.544444Z", "level": "INFO", "message": "Screenshot saved: test_carousel_has_three_slides_082006.png"}
+{"timestamp": "2026-06-19T08:20:07.056028Z", "level": "INFO", "message": "Screenshot saved: test_footer_bg_082006.png"}
+{"timestamp": "2026-06-19T08:20:07.070211Z", "level": "INFO", "message": "Screenshot saved: test_get_started_navigates_to_login_082006.png"}
+{"timestamp": "2026-06-19T08:20:08.278676Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:20:09.007815Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:20:11.795685Z", "level": "INFO", "message": "Screenshot saved: test_onboarding_icons_render_082011.png"}
+{"timestamp": "2026-06-19T08:20:13.363647Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:20:13.518453Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:20:13.530707Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:20:13.592008Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:20:13.607756Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:20:13.714181Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:20:13.767789Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:20:13.845467Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:20:13.900957Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:20:14.190696Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:20:14.262301Z", "level": "INFO", "message": "Screenshot saved: test_page_title_matches_app_name_082014.png"}
+{"timestamp": "2026-06-19T08:20:14.514043Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:20:14.609339Z", "level": "INFO", "message": "Screenshot saved: test_slide_customer_ledger_visible_082014.png"}
+{"timestamp": "2026-06-19T08:20:14.614210Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:20:16.227122Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:20:17.760128Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:20:17.782548Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:20:18.288267Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:20:18.305173Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:20:18.799080Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:20:19.182024Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:20:19.301531Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:20:19.352547Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:20:19.714884Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:20:21.838105Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:20:22.718180Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:20:22.718180Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:20:23.201191Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:20:23.268713Z", "level": "INFO", "message": "Screenshot saved: test_get_started_button_visible_082023.png"}
+{"timestamp": "2026-06-19T08:20:23.359987Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:20:23.421721Z", "level": "INFO", "message": "Screenshot saved: test_slide_smart_inventory_visible_082023.png"}
+{"timestamp": "2026-06-19T08:20:24.287926Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:20:24.377161Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:20:24.431760Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:20:24.465214Z", "level": "INFO", "message": "TC-ONB-020 PASSED: Font-family is \"Helvetica Neue\", Helvetica, Arial, sans-serif"}
+{"timestamp": "2026-06-19T08:20:24.599433Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:20:24.730441Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:20:24.804717Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:20:25.042390Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:20:26.478000Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:20:26.510026Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:20:27.299854Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:20:29.774768Z", "level": "INFO", "message": "Screenshot saved: test_slide_descriptions_present_082029.png"}
+{"timestamp": "2026-06-19T08:20:31.980417Z", "level": "INFO", "message": "TC-ONB-024 PASSED: Dots accessibility checked"}
+{"timestamp": "2026-06-19T08:20:32.436557Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:20:34.335336Z", "level": "INFO", "message": "TC-ONB-018 PASSED: Dot 3 interaction verified"}
+{"timestamp": "2026-06-19T08:20:34.437791Z", "level": "INFO", "message": "TC-ONB-016 PASSED: Logo find result: 0"}
+{"timestamp": "2026-06-19T08:20:34.899288Z", "level": "INFO", "message": "Screenshot saved: test_container_display_flex_082034.png"}
+{"timestamp": "2026-06-19T08:20:34.910759Z", "level": "INFO", "message": "Screenshot saved: test_navigation_dots_present_082034.png"}
+{"timestamp": "2026-06-19T08:20:36.042809Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:20:37.257096Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:20:37.307421Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:20:37.491371Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:20:37.672618Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:20:40.300031Z", "level": "INFO", "message": "Screenshot saved: test_existing_user_link_navigates_to_login_082040.png"}
+{"timestamp": "2026-06-19T08:20:42.958550Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:22:03.768228Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:22:09.017696Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:22:09.030696Z", "level": "INFO", "message": "TC-ONB-001 PASSED: Page loaded successfully"}
+{"timestamp": "2026-06-19T08:22:11.784404Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:22:13.282247Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:22:18.510598Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:22:18.687984Z", "level": "INFO", "message": "Screenshot saved: test_page_title_matches_app_name_082218.png"}
+{"timestamp": "2026-06-19T08:22:21.372199Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:22:22.926367Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:22:28.171276Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:22:38.244251Z", "level": "INFO", "message": "Screenshot saved: test_onboarding_container_rendered_082238.png"}
+{"timestamp": "2026-06-19T08:22:40.831472Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:22:42.360667Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:22:47.589212Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:22:47.650575Z", "level": "INFO", "message": "Screenshot saved: test_slide_smart_inventory_visible_082247.png"}
+{"timestamp": "2026-06-19T08:22:50.346536Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:23:11.042547Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:23:16.260872Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:23:16.275654Z", "level": "INFO", "message": "TC-ONB-001 PASSED: Page loaded successfully"}
+{"timestamp": "2026-06-19T08:23:18.989523Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:23:20.380651Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:23:25.589588Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:23:25.738624Z", "level": "INFO", "message": "Screenshot saved: test_page_title_matches_app_name_082325.png"}
+{"timestamp": "2026-06-19T08:23:28.102808Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:36:10.408026Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:36:15.792216Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:36:15.809732Z", "level": "INFO", "message": "TC-ONB-001 PASSED: Page loaded successfully"}
+{"timestamp": "2026-06-19T08:36:18.775841Z", "level": "INFO", "message": "WebDriver session closed"}
+{"timestamp": "2026-06-19T08:36:20.393663Z", "level": "INFO", "message": "WebDriver session started"}
+{"timestamp": "2026-06-19T08:36:25.634237Z", "level": "INFO", "message": "Navigated to Onboarding page"}
+{"timestamp": "2026-06-19T08:36:25.846393Z", "level": "INFO", "message": "Screenshot saved: test_page_title_matches_app_name_083625.png"}
+{"timestamp": "2026-06-19T08:36:28.584010Z", "level": "INFO", "message": "WebDriver session closed"}
